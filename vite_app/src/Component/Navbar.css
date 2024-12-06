@@ -1,0 +1,52 @@
+input{
+    background-color: black;
+    border: 1px solid grey;
+    height: 25px;
+}
+hr{
+    width: 1000px;
+    margin-left: 253px;
+    margin-top: 4px;
+}
+.mic{
+    margin-left: 891px;
+    margin-top: -27px;
+}
+.search1{
+    margin-left: 855px;
+    margin-top: -127px;
+    height: 28px;
+    width: 52px;
+}
+.create{
+    margin-left: 1180px;
+    margin-top: -26px;
+}
+.bell{
+    margin-left: 1282px;
+    margin-top: -33px;
+}
+.more{
+    margin-left: 1231px;
+    margin-top: -28px;
+}
+.profile{
+    margin-left: 1338px;
+    margin-top: -29px;
+}
+.main4{
+    display: grid;
+    grid-template-columns: 61px 100px 45px 88px 63px 91px 59px 99px 54px 91px 165px 86px;
+    column-gap: 10px;
+    margin-left: 295px;
+    margin-right: 200px;
+}
+.nav{
+    color: white;
+    border: 2px solid rgb(98, 96, 96);
+    border-radius: 32px;
+    text-align: center;
+    margin-top: 5px;
+    height: 31px;
+    align-content: center;
+}

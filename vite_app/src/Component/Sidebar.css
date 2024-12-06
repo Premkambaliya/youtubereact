@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+}
+.youtubelogo{
+    margin-top: -24px;
+    margin-left: 36px;
+    height: 23px;
+    width: 86px;
+}
+img{
+    padding-left: 8px;
+    height: 26px;
+    width: 26px;
+}
+.home{
+    padding-top: 15px;
+}
+.sidebar{
+    color: white;
+    margin-top: -23px;
+    margin-left: 50px;
+    font-size: 15px;
+}
+hr{
+    margin-top: 22px;
+    opacity: 0.2;
+    width: 85%;
+    margin-left: 10px;
+}
+.Subscription{
+    color: white;
+    font-size: 13px;
+    padding-left: 19px;
+    opacity: 0.6;
+}
+.search{
+    margin-bottom: 100px;
+    margin-left: 440px;
+    margin-top: -688px;
+    width: 30%;
+}
+.side{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgb(47, 44, 44);
+    height: 737px;
+    width: 226px;
+    padding: 0px;
+}
