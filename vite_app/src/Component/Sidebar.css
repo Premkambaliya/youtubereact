@@ -21,12 +21,7 @@ img{
     margin-left: 50px;
     font-size: 15px;
 }
-hr{
-    margin-top: 22px;
-    opacity: 0.2;
-    width: 85%;
-    margin-left: 10px;
-}
+
 .Subscription{
     color: white;
     font-size: 13px;
@@ -47,4 +42,10 @@ hr{
     height: 737px;
     width: 226px;
     padding: 0px;
+}
+.hr{
+    width: 220px;
+    margin-left: -1px;
+    margin-right: 2px;
+    opacity: 0.2;
 }

@@ -2,6 +2,21 @@ import './Navbar.css'
 
 function Navbar() {
   
+    const nav =[
+        {id : "1", title : "All"},
+        {id : "2", title : "coke studio"},
+        {id : "3", title : "UX"},
+        {id : "4", title : "Case study"},
+        {id : "5", title : "Music"},
+        {id : "6", title : "bnagla lofi"},
+        {id : "7", title : "Tour"},
+        {id : "8", title : "Saintmartin"},
+        {id : "9", title : "Tech"},
+        {id : "10", title : "iphone 13"},
+        {id : "11", title : "User Interface Design"},
+        {id : "12", title : "computer"},
+    ]
+
     return (
       <>
   
@@ -30,18 +45,11 @@ function Navbar() {
     <hr/>
 
     <div className="main4">
-        <div className="nav" style={{backgroundColor: "white",color: "black"}}>All</div>
-        <div className="nav">coke studio</div>
-        <div className="nav">UX</div>
-        <div className="nav"> Case study</div>
-        <div className="nav">Music</div> 
-        <div className="nav">bnagla lofi</div>
-        <div className="nav">Tour</div>
-        <div className="nav">Saintmartin</div>
-        <div className="nav">Tech</div>
-        <div className="nav">iphone 13</div>
-        <div className="nav">User Interface Design</div>
-        <div className="nav">computer</div> 
+
+        {nav.map((Title) => (
+              <div className="nav">{Title.title}</div>
+            ))}
+            
     </div>
 </div>
 

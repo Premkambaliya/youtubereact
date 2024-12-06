@@ -23,7 +23,7 @@ function sidebar() {
     <img src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/subscription.png?raw=true" alt=""/>
     <p className="sidebar">subscription</p>
     
-    <hr/>
+<hr className='hr' />
     
     <img src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/library.png?raw=true" alt=""/>
     <p className="sidebar">Library</p>
@@ -43,7 +43,8 @@ function sidebar() {
     <img src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/down_arrow.png?raw=true" alt=""/>
     <p className="sidebar">Show more</p>
     
-    <hr/>
+<hr className='hr' />
+   
     
     <p className="Subscription">SUBSCRIPTION</p>
 
